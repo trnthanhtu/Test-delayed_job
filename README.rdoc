@@ -1,7 +1,7 @@
 == README
 Test gem delayed_job with carriewave
 
-problem: What's happen when you wanna upload big file with long task.?
+problem: What's happen when you wanna upload big file with long task.?" And you dont need respone to user"?
 
 Run: 
 
