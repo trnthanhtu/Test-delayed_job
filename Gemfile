@@ -46,7 +46,7 @@ group :development do
 end
 
 #Upload file
-gem 'carriewave'
+gem 'carrierwave'
 gem 'rmagick'
 
 #Upload s3
