@@ -1,9 +1,10 @@
 # encoding: utf-8
-
+require File.join(Rails.root, "lib", "carrier_wave", "delayed_job")
 class AvataUploader < CarrierWave::Uploader::Base
 
   # Include RMagick or MiniMagick support:
    include CarrierWave::RMagick
+   include CarrierWave::Delayed::Job 
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
