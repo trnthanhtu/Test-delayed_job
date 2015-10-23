@@ -2,3 +2,11 @@
 Test gem delayed_job with carriewave
 
 problem: What's happen when you wanna upload big file with long task.?
+
+Run: 
+
+-> `rake jobs:work`
+
+<Dont have account s3 to test :cry :cry :cry>
+
+Update soon...

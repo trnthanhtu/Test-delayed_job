@@ -54,3 +54,4 @@ gem 'fog-aws'
 gem 'fog'
 
 gem 'delayed_job'
+gem 'delayed_job_active_record'
